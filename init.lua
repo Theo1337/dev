@@ -20,6 +20,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 -- Enable line numbers
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.cmd("syntax enable")
 
 vim.cmd("filetype plugin indent on")
