@@ -18,7 +18,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- optionally enable 24-bit colour
 vim.opt.termguicolors = true
-
 -- Enable line numbers
 vim.opt.number = true
 vim.cmd("syntax enable")
@@ -39,3 +38,6 @@ vim.keymap.set("v", "j", "h", { noremap = true })
 vim.keymap.set("v", "k", "j", { noremap = true })
 vim.keymap.set("v", "i", "k", { noremap = true })
 vim.keymap.set("v", "o", "i", { noremap = true })
+
+vim.api.nvim_set_keymap("n", "<C-s>", ":w<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<C-s>", "<Esc>:w<CR>a", { noremap = true, silent = true })
