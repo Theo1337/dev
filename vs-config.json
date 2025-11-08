@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Bearded Theme Black & Ruby",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
@@ -13,28 +13,28 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontFamily": "JetBrains Mono",
-  // "apc.electron": {
-  //   "titleBarStyle": "hiddenInset"
-  // },
-  // "apc.header": {
-  //   "height": 36
-  // },
-  // "apc.listRow": {
-  //   "height": 24
-  // },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  // "apc.stylesheet": {
-  //   ".title-label > h2": "display: none",
-  //   ".editor-actions": "display: none",
-  //   ".nosidebar .inline-tabs-placeholder": "width: 75px",
-  //   ".pane-header": "padding: 0 8px",
-  //   ".pane-body": "padding: 8px",
-  //   ".split-view-view:first-child .pane-header": "display: none !important;",
-  //   ".monaco-list-row": "border-radius: 4px;",
-  //   ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  // },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "window.menuBarVisibility": "compact",
@@ -50,11 +50,16 @@
   },
   "security.workspace.trust.untrustedFiles": "open",
   "explorer.confirmDelete": false,
-  "chat.editing.alwaysSaveWithGeneratedChanges": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  }
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\bethu\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+  },
+  "postman.mcp.notifications.postmanMCP": false,
+  "supermaven.otherWarning": false,
+  "explorer.confirmDragAndDrop": false
 }
